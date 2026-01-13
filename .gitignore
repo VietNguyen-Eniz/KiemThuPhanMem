@@ -1,0 +1,18 @@
+# === Java ===
+*.class
+*.log
+
+# === Build / output ===
+/out/
+/bin/
+/target/
+
+# === VS Code ===
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === JUnit standalone jar  ===
+# lib/*.jar
