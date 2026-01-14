@@ -107,7 +107,6 @@ java -jar lib/junit-platform-console-standalone-1.9.x.jar --class-path . --scan-
 ## 6. Danh sách ca kiểm thử
 
 - Danh sách điểm hợp lệ và không hợp lệ
-- Danh sách toàn bộ điểm hợp lệ
 - Danh sách rỗng
 - Danh sách chỉ chứa giá trị biên (0 và 10)
 - Danh sách chứa điểm âm hoặc lớn hơn 10
@@ -123,5 +122,6 @@ Thông qua bài tập này, em đã nắm vững:
 * **Tổ chức dự án**: Hiểu quy trình tổ chức dự án Java theo cấu trúc `src/test` tiêu chuẩn.
 * **Kỹ năng công nghệ**: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
 javac -cp ".;lib/junit-platform-console-standalone-1.10.2.jar" src/StudentAnalyzer.java test/StudentAnalyzerTest.java
+
 
 
