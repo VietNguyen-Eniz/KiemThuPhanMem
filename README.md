@@ -1,6 +1,5 @@
-# KiemThuPhanMem
-#Bai Tap Ve Nha Cua Mon Kiem Thu Phan Mem
-#Bai Tap Tuan 1
+# BÀI TẬP VỀ NHÀ – MÔN KIỂM THỬ PHẦN MỀM  
+## Bài tập Tuần 1
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a9286dda-b56d-4987-b1c1-1beb80826be3" />
 
 # Student Analyzer – Unit Testing with JUnit Standalone
@@ -21,4 +20,5 @@ Chương trình phân tích điểm số học sinh và kiểm thử đơn vị 
 
 ### Compile
 ```bash
+
 javac -cp ".;lib/junit-platform-console-standalone-1.10.2.jar" src/StudentAnalyzer.java test/StudentAnalyzerTest.java
