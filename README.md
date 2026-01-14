@@ -10,7 +10,6 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 * **Thời gian hoàn thành:** 04:26
 
 ### Minh chứng kết quả:
-![Kết quả Can't Unsee]
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a9286dda-b56d-4987-b1c1-1beb80826be3" />
 
 ---
@@ -100,6 +99,9 @@ java -jar lib/junit-platform-console-standalone-1.9.x.jar --class-path . --scan-
 - Nếu tất cả test **PASS**, JUnit sẽ hiển thị tổng số test thành công
 - Nếu có test **FAIL**, hệ thống sẽ hiển thị chi tiết lỗi để sinh viên sửa mã nguồn
 
+### Kết quả kiểm thử thực tế:
+<img width="1919" height="1020" alt="Image" src="https://github.com/user-attachments/assets/8bdb023b-f606-4761-867e-00448e291830" />
+
 ---
 
 ## 6. Danh sách ca kiểm thử
@@ -121,4 +123,5 @@ Thông qua bài tập này, em đã nắm vững:
 * **Tổ chức dự án**: Hiểu quy trình tổ chức dự án Java theo cấu trúc `src/test` tiêu chuẩn.
 * **Kỹ năng công nghệ**: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
 javac -cp ".;lib/junit-platform-console-standalone-1.10.2.jar" src/StudentAnalyzer.java test/StudentAnalyzerTest.java
+
 
