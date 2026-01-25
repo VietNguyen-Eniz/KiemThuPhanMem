@@ -124,4 +124,79 @@ Thông qua bài tập này, em đã nắm vững:
 javac -cp ".;lib/junit-platform-console-standalone-1.10.2.jar" src/StudentAnalyzer.java test/StudentAnalyzerTest.java
 
 
+# Cypress End-to-End Testing Project
+
+## Giới thiệu
+Đây là project thực hành kiểm thử tự động End-to-End (E2E) bằng **Cypress** cho website mẫu [SauceDemo](https://www.saucedemo.com).  
+Project nhằm kiểm tra các chức năng chính của website như:
+- Đăng nhập
+- Thêm/xóa sản phẩm trong giỏ hàng
+- Sắp xếp sản phẩm
+- Quy trình thanh toán
+
+---
+
+## Mục tiêu
+- Làm quen với Cypress và kiểm thử tự động E2E.
+- Viết các kịch bản kiểm thử cho một website thương mại điện tử mẫu.
+- Hiểu quy trình chạy test và quan sát kết quả kiểm thử.
+
+---
+
+## Công cụ sử dụng
+- **Node.js** (v14 trở lên)
+- **Cypress**
+- **Visual Studio Code**
+- **Google Chrome**
+
+---
+
+## Website kiểm thử
+- SauceDemo: https://www.saucedemo.com  
+- Cypress Official Docs: https://docs.cypress.io  
+
+---
+
+## Cấu trúc thư mục
+```
+CypressHW/
+ ├── cypress/
+ │    └── e2e/
+ │         ├── login_spec.cy.js
+ │         └── cart_spec.cy.js
+ ├── package.json
+ └── cypress.config.js
+```
+
+---
+
+## Hướng dẫn chạy kiểm thử
+- Chạy lệnh
+```
+npx cypress open
+```
+- Chọn **E2E Testing**
+- Chọn trình duyệt **Chrome**
+- Chạy các file test
+`login_spec.cy.js`
+`cart_spec.cy.js`
+
+---
+
+## Các kịch bản kiểm thử
+- Kiểm tra đăng nhập thành công
+- Kiểm tra đăng nhập thất bại
+- Thêm sản phẩm vào giỏ hàng
+- Sắp xếp sản phẩm theo giá thấp đến cao
+- Xóa sản phẩm khỏi giỏ hàng
+- Quy trình thanh toán
+
+---
+
+## Kết quả chạy kiểm thử
+- Login Test Passed
+<img width="1918" height="1079" alt="Image" src="https://github.com/user-attachments/assets/facab57a-aa49-4616-b98f-1c27874c407f" />
+- Cart Test Passed
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c747f056-7be2-4794-992c-46eef9e9a474" />
+
 
