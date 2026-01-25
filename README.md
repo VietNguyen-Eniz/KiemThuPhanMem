@@ -202,4 +202,81 @@ npx cypress open
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c747f056-7be2-4794-992c-46eef9e9a474" />
 
 
+# Performance Testing with Apache JMeter
 
+## Giới thiệu
+Dự án này nhằm thực hành **kiểm thử hiệu năng (Performance Testing)** cho một website bằng công cụ **Apache JMeter**.  
+Thực hiện kiểm thử hiệu năng với 3 kịch bản khác nhau và phân tích kết quả.
+---
+
+## Mục tiêu
+- Hiểu cách sử dụng JMeter để kiểm thử hiệu năng website.
+- Thiết kế kịch bản kiểm thử với nhiều Thread Group khác nhau.
+- Ghi lại các chỉ số:
+  - Response Time
+  - Throughput
+  - Error Rate
+
+---
+
+## Công cụ sử dụng
+- Apache JMeter 5.6.3  
+- Java JDK  
+- Trình duyệt Chrome  
+
+---
+
+## Cấu trúc thư mục
+```
+jmeter/
+ ├── Results (csv)/
+ │    ├── Summary Report.csv
+ │    └── View Results Tree.csv
+ └── Test Plan.jmx
+```
+
+---
+
+## Các kịch bản kiểm thử
+
+### Thread Group 1: Basic Test
+- Users: 10
+- Loop Count: 5
+- Request: GET /
+
+### Thread Group 2: Heavy Load
+- Users: 50
+- Ramp-up: 30s
+- Requests:
+  - GET /
+  - GET /the-gioi
+
+### Thread Group 3: Custom Test
+- Users: 20
+- Duration: 60s
+- Requests:
+  - GET /kinh-doanh
+  - GET /giai-tri
+
+---
+
+## Kết quả kiểm thử
+
+### Thread Group 1
+![Summary Report](<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/a1babf1d-d3b2-47d1-be69-c717afe1950e" />)
+
+### Thread Group 2
+![View Results Tree](<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/c01f41ff-9e2d-4603-9bdd-0a409c83892f" />)
+
+---
+
+## Nhận xét
+- Response Time tăng khi số lượng người dùng tăng.
+- Heavy Load có throughput cao hơn nhưng cũng có độ trễ lớn hơn.
+- Không ghi nhận lỗi nghiêm trọng trong quá trình kiểm thử.
+
+---
+
+## Tài liệu tham khảo:
+- JMeter Documentation: https://jmeter.apache.org  
+- Website được chọn để kiểm thử hiệu năng: [https://www.wikipedia.org](https://vnexpress.net)  
