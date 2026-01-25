@@ -164,8 +164,10 @@ CypressHW/
  │    └── e2e/
  │         ├── login_spec.cy.js
  │         └── cart_spec.cy.js
+ ├── node_modules
+ ├── cypress.config.js
  ├── package.json
- └── cypress.config.js
+ └── package-log.json
 ```
 
 ---
@@ -198,5 +200,6 @@ npx cypress open
 <img width="1918" height="1079" alt="Image" src="https://github.com/user-attachments/assets/facab57a-aa49-4616-b98f-1c27874c407f" />
 - Cart Test Passed
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c747f056-7be2-4794-992c-46eef9e9a474" />
+
 
 
