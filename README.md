@@ -52,9 +52,9 @@ unit-test/
 │   └── junit-platform-console-standalone-1.13.0-M3.jar
 ├── src/
 │   └── StudentAnalyzer.java
-├── test/
-│   └── StudentAnalyzerTest.java
-└── README.md
+└── test/
+   └── StudentAnalyzerTest.java
+
 
 ```
 
@@ -262,11 +262,11 @@ jmeter/
 
 ## Kết quả kiểm thử
 
-### Thread Group 1
-![Summary Report](<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/a1babf1d-d3b2-47d1-be69-c717afe1950e" />)
+### Summary Report
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/a1babf1d-d3b2-47d1-be69-c717afe1950e" />
 
-### Thread Group 2
-![View Results Tree](<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/c01f41ff-9e2d-4603-9bdd-0a409c83892f" />)
+### View Results Tree
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/c01f41ff-9e2d-4603-9bdd-0a409c83892f" />
 
 ---
 
@@ -280,3 +280,4 @@ jmeter/
 ## Tài liệu tham khảo:
 - JMeter Documentation: https://jmeter.apache.org  
 - Website được chọn để kiểm thử hiệu năng: [https://www.wikipedia.org](https://vnexpress.net)  
+
